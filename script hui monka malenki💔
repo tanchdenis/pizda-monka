@@ -245,7 +245,7 @@ repeat _TaskWait() until _IsLoaded(game)
 if getgenv().Loaded ~= nil then return end
 
 local version = "9.9.3"
-local Build = "1000-7"
+local Build = ""
 local LoadTick = _Tick()
 local checkcalled = false
 
@@ -9981,11 +9981,11 @@ do --Funcs
         end)
         RunService.Heartbeat:Connect(function()
             if Flags["Inf_Ammo"] then 
-                LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.Text = 'ShitCheat'
-                LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoReserve.Text = 'NIGGER'
+                LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.Text = 'Wareniki'
+                LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoReserve.Text = 'cc'
                 LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.TextColor3 = _Color3FromRGB(255, 165, 0)
                 Cache.Client.vars.ammocount = 999999
-                Cache.Client.vars.primarystored = 999999
+                Cache.Client.vars.primarystored = 99999
                 Cache.Client.vars.ammocount2 = 999999
                 Cache.Client.vars.secondarystored = 999999
             end
@@ -11113,7 +11113,7 @@ do  -- Signals !
             local Date = dayOfWeek..", "..month.." "..day
             local versionColor = "#".._StringUpper(_tostring(_ToHex(Library.AccentColor)))
             local version = '<font color="'..versionColor..'" size="9">v'..version..'</font>'
-            local str = '<font color="'..hex..'">shitasscheat</font> '..version..'   '..fps..' fps 〡 '..ping2..' ms 〡 '..Time..' 〡 '..Date..' 〡 '..Build..' 〡 UID: '.. '💩💩💩💩💩💩💩💩💩💩💩💩💩💩💩'
+            local str = '<font color="'..hex..'">wareniki.cc</font> '..version..'   '..fps..' fps 〡 '..ping2..' ms 〡 '..Time..' 〡 '..Date..' 〡 '..Build..' 〡
             Library:SetWatermark(str)
         end
     end)
